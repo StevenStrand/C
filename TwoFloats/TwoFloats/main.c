@@ -9,7 +9,16 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    // Declare Float One
+    float one = 3.14;
+    
+    // Declare Float Two
+    float two = 42.0;
+
+    // Declare and set value of Sum
+    double sum = one + two;
+    
+    // Print the value of the Sum
+    printf("The sum of %f and %f is equal to %f.\n", one, two, sum);
     return 0;
 }
